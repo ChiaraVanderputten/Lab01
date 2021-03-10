@@ -1,17 +1,18 @@
 package it.polito.tdp.parole.model;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Parole {
+public class Parole2 {
 		
-     LinkedList <String> elencoParole ;
+     ArrayList <String> elencoParole ;
 	
-	public Parole() {
+	public Parole2() {
 		
-		elencoParole = new LinkedList <String>();
+		elencoParole = new ArrayList <String>();
 		
 	}
 	
